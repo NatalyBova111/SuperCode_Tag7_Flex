@@ -16,10 +16,9 @@ body {
   color: #333;
 }
 
-/* Навигационный блок */
 .navbar {
   background-color: rgba(255, 255, 255, 0.85);
-  height: 76px; /* Headerhöhe */
+  height: 76px;
   width: 100%;
   position: absolute;
   top: 0;
@@ -29,7 +28,6 @@ body {
   align-items: center;
 }
 
-/* Контейнер внутри навигации */
 .navbar-container {
   display: flex;
   justify-content: space-between;
@@ -40,20 +38,18 @@ body {
   padding: 0 40px;
 }
 
-/* Логотип */
 .logo {
   font-family: 'Raleway', sans-serif;
-  color: #666; /* Logofarbe */
+  color: #666;
   font-size: 20px;
   font-weight: bold;
   transition: color 0.3s;
 }
 
 .logo:hover {
-  color: #333; /* Logofarbe in hover */
+  color: #333;
 }
 
-/* Меню */
 .menu {
   display: flex;
   gap: 30px;
@@ -62,16 +58,15 @@ body {
 .menu a {
   font-family: 'Raleway', sans-serif;
   text-decoration: none;
-  color: #333; /* Menüfarbe */
+  color: #333;
   font-size: 14px;
   transition: color 0.3s;
 }
 
 .menu a:hover {
-  color: #337ab7; /* Menüfarbe in hover */
+  color: #337ab7; 
 }
 
-/* Hero-секция с фоновым изображением */
 .hero {
   background-image: url('../img/alex-holzreiter--5tFROaYDUo-unsplash.jpg');
   background-size: cover;
@@ -90,14 +85,12 @@ body {
   border-radius: 8px;
 }
 
-/* Главный заголовок */
 .hero h1 {
   font-family: 'Raleway', sans-serif;
   margin-bottom: 20px;
   font-size: 32px;
 }
 
-/* Подзаголовок */
 .hero p {
   font-size: 16px;
   margin-bottom: 30px;
@@ -108,7 +101,6 @@ body {
   margin: 0 auto;
 }
 
-/* Кнопки */
 .hero-buttons {
   display: flex;
   gap: 20px;
@@ -138,7 +130,7 @@ body {
 }
 
 .btn-primary {
-  background-color: #7d5fff; /* примерно как на скриншоте */
+  background-color: #7d5fff; 
   color: white;
   border: none;
 }
