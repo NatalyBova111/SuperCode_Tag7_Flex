@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #333;
+}
+
+/* Навигационный блок */
+.navbar {
+  background-color: rgba(255, 255, 255, 0.85);
+  height: 76px; /* Headerhöhe */
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+}
+
+/* Контейнер внутри навигации */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  border-bottom: 1px solid #ccc; /* Нижняя граница */
+}
+
+/* Логотип */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  color: #666; /* Logofarbe */
+  font-size: 20px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.logo:hover {
+  color: #333; /* Logofarbe in hover */
+}
+
+/* Меню */
+.menu {
+  display: flex;
+  gap: 30px;
+}
+
+.menu a {
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  color: #333; /* Menüfarbe */
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: #337ab7; /* Menüfarbe in hover */
+}
